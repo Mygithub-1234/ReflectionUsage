@@ -20,21 +20,33 @@ Consider an example where we have two alternate implementations of an interface.
 **Var in C#**
 
 var is known as a statically typed variable, meaning that the data type of these variables is identified at compile time, which is done based on the type of value with which these variables are initialized.
+
 var in C# was introduced as part of C# 3.0.
+
 In the case of var, the variable’s data type is identified by the compiler at the compilation time only.
+
 In the case of var, it is mandatory to initialize the variable at the time of its declaration so that the compiler comes to know the variable’s data type according to the right-hand side value assigned to it.
+
 It will throw an error if the variable does not initialize at the time of its declaration.
 We will get intelligence support in the visual studio.
+
 Var cannot be used to declare method parameters and method return type in C#. It can only be used as a local variable declaration inside a function.
+
 Var is early bounded. This means the compiler decides the type of variable declared at compile time.
 
 **Dynamic in C#**
 
 Dynamic is known as a dynamically typed variable which means that the data type of these variables is identified at runtime, which is done based on the type of value that these variables are initialized with.
+
 Dynamic in C# was introduced in C#4.0.
+
 In the case of dynamic, the data type of variable is identified by the CLR at run time.
+
 In the case of dynamic, it is not mandatory to initialize the variable at the time of its declaration.
+
 It will not throw an error if the variable does not initialize at the time of its declaration.
+
 We will not get any intelligence support in the visual studio.
 Dynamic can be used to declare method parameters and method return type in C#. It can also be used as a local variable declaration inside a function.
+
 Dynamic is Late Bounded. This means the CLR decides the type of variable declared at runtime time.
